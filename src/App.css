@@ -28,6 +28,99 @@
   color: #61dafb;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  padding: 12px;
+  position: relative;
+  align-items: center;
+}
+
+.top-img{
+  display: flex;
+  /* width: 100px; */
+}
+
+.t-img {
+  width: 120px;
+}
+
+.nav {
+  background-color: white;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.menu {
+  background-color: white;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.top-item {
+  font-size: 20px;
+  margin-right: 16px;
+  font-weight: 700;
+  color: purple;
+}
+
+.body{
+  padding-top: 60px;
+  padding-bottom: 72px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.first{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.welcom {
+  font-size: 28px;
+}
+
+.name {
+  color: purple;
+  font-size: 45px;
+}
+
+.mem2 {
+  height: 420px;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects{
+  padding-top: 100px;
+}
+
+.project-head{
+  padding-bottom: 80px;
+  font-size: 40px;
+  color: purple;
+}
+
+
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +129,6 @@
     transform: rotate(360deg);
   }
 }
+
+
+
